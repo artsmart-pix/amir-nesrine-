@@ -10,3 +10,6 @@ A-PUBLIER/.vercel/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# sauvegarde locale d avant le nouveau theme : ne doit pas etre publiee
+A-PUBLIER/.bak.html

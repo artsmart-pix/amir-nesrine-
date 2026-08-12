@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#050706" />
+  <meta name="theme-color" content="#f8f6f1" />
   <title>Amir &amp; Nesrine — 19 Septembre 2026</title>
   <meta name="description" content="Amir & Nesrine ont la joie de vous convier à la célébration de leur union — samedi 19 septembre 2026, Salle des Fêtes Jasmin, Béjaïa." />
 
@@ -23,7 +23,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Cinzel:wght@400;500;600&family=Jost:wght@200;300;400;500&family=Amiri:ital,wght@0,400;0,700;1,400&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Typographie : Instrument Serif (titres, éditorial contemporain),
+       Inter (texte et interface), Amiri (les deux textes arabes conservés). -->
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
 
   <style>
     /* =====================================================================
@@ -62,7 +64,7 @@
     body{
       min-height:100vh;
       overflow-x:hidden;
-      font-family:"Jost", sans-serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-weight:300;
       color:var(--ivory);
       background:var(--black);
@@ -286,7 +288,7 @@
     }
 
     .intro-eyebrow{
-      font-family:"Cinzel", serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:clamp(.62rem, 1.9vw, .74rem);
       letter-spacing:.52em;
       text-transform:uppercase;
@@ -303,7 +305,7 @@
     }
 
     .intro-names{
-      font-family:"Great Vibes", cursive;
+      font-family:"Instrument Serif", Georgia, serif;
       font-weight:400;
       font-size:clamp(2.7rem, 11vw, 4.6rem);
       line-height:1.18;
@@ -313,7 +315,7 @@
     }
 
     .intro-date{
-      font-family:"Cormorant Garamond", serif;
+      font-family:"Instrument Serif", Georgia, serif;
       font-size:clamp(.95rem, 3vw, 1.2rem);
       letter-spacing:.52em;
       color:rgba(244,241,230,.8);
@@ -328,7 +330,7 @@
       border-radius:999px;
       background:linear-gradient(180deg, rgba(201,162,74,.14), rgba(5,7,6,.5));
       color:var(--gold-pale);
-      font-family:"Jost", sans-serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:.9rem; font-weight:400;
       letter-spacing:.24em; text-transform:uppercase;
       cursor:pointer;
@@ -369,7 +371,7 @@
 
     .header{ text-align:center; }
     .header .eyebrow{
-      font-family:"Cinzel", serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:clamp(.6rem,1.7vw,.72rem);
       letter-spacing:.5em; text-transform:uppercase;
       color:var(--gold);
@@ -378,7 +380,7 @@
     body.started .eyebrow{ animation:riseIn 1.3s .15s ease forwards; }
 
     .header h1{
-      font-family:"Great Vibes", cursive;
+      font-family:"Instrument Serif", Georgia, serif;
       font-weight:400;
       font-size:clamp(2.8rem, 9.5vw, 4.4rem);
       line-height:1.2;
@@ -402,7 +404,7 @@
     .header .date-line{
       display:flex; align-items:center; justify-content:center; gap:14px;
       margin-top:8px;
-      font-family:"Cormorant Garamond", serif;
+      font-family:"Instrument Serif", Georgia, serif;
       font-size:clamp(.9rem, 2.4vw, 1.1rem);
       letter-spacing:.3em; text-transform:uppercase;
       color:rgba(244,241,230,.82);
@@ -440,7 +442,7 @@
     }
     .count-cell b{
       display:block;
-      font-family:"Cinzel", serif; font-weight:500;
+      font-family:"Inter", system-ui, sans-serif; font-weight:500;
       font-size:clamp(1.35rem, 4.2vw, 1.9rem);
       color:var(--gold-pale);
       line-height:1.15;
@@ -617,7 +619,7 @@
       position:absolute; left:0; right:0; bottom:9%;
       z-index:7;
       text-align:center;
-      font-family:"Cinzel", serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:clamp(.56rem, 1.9vw, .68rem);
       letter-spacing:.42em;
       text-indent:.42em;
@@ -631,7 +633,7 @@
       position:absolute; left:0; right:0; top:17%;
       z-index:2;
       text-align:center;
-      font-family:"Aref Ruqaa", "Amiri", serif;
+      font-family:"Amiri", serif;
       font-size:clamp(1.15rem, 4.4vw, 1.5rem);
       line-height:1.9;
       color:var(--gold-lt);
@@ -776,7 +778,7 @@
 
     .letter .kicker{
       display:flex; align-items:center; gap:12px;
-      font-family:"Cinzel", serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:.56rem;
       letter-spacing:.42em; text-transform:uppercase;
       color:rgba(240,220,160,.85);
@@ -789,7 +791,7 @@
     .letter .kicker::after{ transform:scaleX(-1); }
 
     .letter .names{
-      font-family:"Great Vibes", cursive;
+      font-family:"Instrument Serif", Georgia, serif;
       font-size:clamp(2.2rem, 6.4vw, 2.9rem);
       line-height:1.06;
       padding:0 .08em;
@@ -802,7 +804,7 @@
     }
 
     .letter .invite-text{
-      font-family:"Cormorant Garamond", serif;
+      font-family:"Instrument Serif", Georgia, serif;
       font-style:italic; font-weight:300;
       font-size:clamp(.88rem, 2.3vw, 1rem);
       color:rgba(244,241,230,.78);
@@ -812,10 +814,10 @@
 
     .date-block{
       display:flex; align-items:center; gap:clamp(12px, 3.4vw, 20px);
-      font-family:"Cormorant Garamond", serif;
+      font-family:"Instrument Serif", Georgia, serif;
     }
     .d-side{
-      font-family:"Cinzel", serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:clamp(.6rem, 1.8vw, .7rem);
       font-weight:400;
       letter-spacing:.28em; text-transform:uppercase;
@@ -825,14 +827,14 @@
       padding:8px 2px;
     }
     .d-num{
-      font-family:"Cinzel", serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:clamp(2.3rem, 6.6vw, 2.9rem);
       font-weight:500; line-height:.95;
       color:var(--gold-pale);
       text-shadow:0 2px 16px rgba(201,162,74,.4);
     }
     .d-year{
-      font-family:"Cinzel", serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:clamp(.78rem, 2.2vw, .9rem);
       letter-spacing:.34em;
       color:rgba(244,241,230,.75);
@@ -866,7 +868,7 @@
     .chip b{ font-weight:400; color:var(--gold-lt); }
 
     .letter .closing{
-      font-family:"Great Vibes", cursive;
+      font-family:"Instrument Serif", Georgia, serif;
       font-size:clamp(1.05rem, 3vw, 1.25rem);
       color:var(--gold-lt);
     }
@@ -968,7 +970,7 @@
     .ph .ph-fallback svg{ width:62%; height:auto; opacity:.85; }
     .polaroid figcaption{
       position:absolute; left:0; right:0; bottom:7px;
-      font-family:"Great Vibes", cursive;
+      font-family:"Instrument Serif", Georgia, serif;
       font-size:1rem;
       color:#3d4a3f;
       text-align:center;
@@ -1016,7 +1018,7 @@
     .scene.opened .photo-tip{ opacity:1; max-height:90px; }
     .photo-tip .ar{
       display:block;
-      font-family:"Aref Ruqaa", "Amiri", serif;
+      font-family:"Amiri", serif;
       font-size:clamp(.95rem, 3vw, 1.1rem);
       color:var(--gold-pale);
       line-height:2;
@@ -1024,7 +1026,7 @@
     }
     .photo-tip-fr{
       display:block;
-      font-family:"Cormorant Garamond", serif;
+      font-family:"Instrument Serif", Georgia, serif;
       font-style:italic;
       font-size:clamp(.88rem, 2.5vw, 1rem);
       letter-spacing:.08em;
@@ -1046,7 +1048,7 @@
       padding:13px 26px;
       border:none; border-radius:999px;
       cursor:pointer;
-      font-family:"Jost", sans-serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:.85rem; font-weight:400;
       letter-spacing:.16em; text-transform:uppercase;
       color:#1a1305;
@@ -1100,7 +1102,7 @@
       padding:16px 20px 12px;
     }
     .map-head h2{
-      font-family:"Cinzel", serif; font-weight:500;
+      font-family:"Inter", system-ui, sans-serif; font-weight:500;
       font-size:.9rem; letter-spacing:.24em; text-transform:uppercase;
       color:var(--gold-lt);
       display:flex; align-items:center; gap:10px;
@@ -1239,7 +1241,7 @@
       max-width:30ch;
     }
     .letter .ar-names{
-      font-family:"Aref Ruqaa", "Amiri", serif;
+      font-family:"Amiri", serif;
       font-size:clamp(1.15rem, 3.9vw, 1.5rem);
       line-height:1.9;
       padding:0 .1em;
@@ -1257,7 +1259,7 @@
       max-width:28ch;
     }
     .letter .ar-closing{
-      font-family:"Aref Ruqaa", "Amiri", serif;
+      font-family:"Amiri", serif;
       font-size:clamp(.86rem, 2.6vw, 1rem);
       line-height:2;
       color:var(--gold-lt);
@@ -1291,7 +1293,7 @@
       margin-bottom:10px;
     }
     .amb-title{
-      font-family:"Aref Ruqaa", "Amiri", serif;
+      font-family:"Amiri", serif;
       font-size:clamp(1.05rem, 3.4vw, 1.25rem);
       line-height:2;
       color:var(--gold-pale);
@@ -1300,7 +1302,7 @@
     }
     .amb-sub{
       display:flex; align-items:center; gap:12px;
-      font-family:"Cinzel", serif;
+      font-family:"Inter", system-ui, sans-serif;
       font-size:clamp(.56rem, 1.8vw, .66rem);
       letter-spacing:.34em;
       text-transform:uppercase;
@@ -1562,6 +1564,712 @@
       body.started .header h1 .ltr{ opacity:1; transform:none; filter:none; }
       .scene.opened .polaroid{ opacity:1; transform:rotate(var(--rot)); }
     }
+
+    /* =====================================================================
+       THÈME NOIR · BLANC · VERT
+       ---------------------------------------------------------------------
+       Calque volontairement placé en dernier : il ne redéfinit que les
+       COULEURS, les OMBRES et quelques réglages typographiques. La mise en
+       page, le pliage 3D de l'enveloppe, la chorégraphie des animations et
+       le responsive plus haut restent la seule source de vérité — supprimer
+       ce bloc suffit à revenir à la version d'origine.
+
+       Le système tient sur trois principes :
+       1. UNE seule couleur. Le vert ne sert qu'aux accents (sceau, filets,
+          bouton principal). Tout le reste est noir sur blanc — c'est ce qui
+          fait la lecture « pro » plutôt que « décorée ».
+       2. Les ombres ne sont jamais noires mais encre très diluée, en deux
+          couches (contact courte + portée large), sinon le blanc paraît sale.
+       3. Les filets font 1px et restent sous 12 % d'opacité : au-delà, le
+          rendu bascule dans le « cadre doré » qu'on cherche justement à
+          quitter.
+
+       Les anciennes variables --gold-* sont recyclées en vert : elles sont
+       utilisées à ~60 endroits dans la feuille au-dessus, les redéfinir ici
+       reteinte tout l'existant sans le réécrire.
+       ===================================================================== */
+    :root{
+      --paper:#ffffff;
+      --paper-warm:#fbfbfa;       /* fond de page, blanc très légèrement froid */
+      --paper-edge:#f1f2f0;
+
+      --ink:#0e1211;              /* noir profond, jamais #000 : trop dur à l'écran */
+      --ink-soft:rgba(14,18,17,.72);
+      --ink-mute:rgba(14,18,17,.52);
+      --ink-faint:rgba(14,18,17,.36);
+
+      --green:#1a6b46;
+      --green-lt:#22855a;
+      --green-deep:#0f3f29;
+      --green-wash:#eef4f0;
+
+      /* recyclage : tout ce qui était or devient vert */
+      --gold:#1a6b46;
+      --gold-lt:#22855a;
+      --gold-pale:#155638;
+      --gold-deep:#0f3f29;
+      --gold-line:rgba(26,107,70,.34);
+      --gold-faint:rgba(26,107,70,.16);
+
+      --sage-dim:rgba(14,18,17,.50);
+      --ivory:#0e1211;
+
+      --hair:rgba(14,18,17,.10);
+      --shade-1:0 1px 2px rgba(14,18,17,.04), 0 6px 16px rgba(14,18,17,.05);
+      --shade-2:0 2px 6px rgba(14,18,17,.05), 0 16px 40px rgba(14,18,17,.07);
+      --shade-3:0 4px 10px rgba(14,18,17,.05), 0 30px 70px rgba(14,18,17,.10);
+    }
+
+    body{
+      color:var(--ink);
+      background:var(--paper-warm);
+      font-weight:400;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+    ::selection{ background:rgba(26,107,70,.16); color:var(--ink); }
+
+    /* ---------------------------------------------------------------------
+       TYPOGRAPHIE
+       Instrument Serif porte les titres, Inter tout le reste. Les tailles
+       avaient été calées sur une anglaise très haute : on resserre
+       l'interlettrage et on descend un peu les corps pour un rendu net.
+       --------------------------------------------------------------------- */
+    .intro-names, .header h1, .letter .names{
+      font-family:"Instrument Serif", Georgia, serif;
+      font-weight:400;
+      letter-spacing:-.015em;
+    }
+    .intro-names{ font-size:clamp(2.6rem, 9.5vw, 4.2rem); line-height:1.06; }
+    .header h1{ font-size:clamp(2.5rem, 8.5vw, 4rem); line-height:1.08; }
+    .letter .names{ font-size:clamp(2rem, 5.8vw, 2.6rem); line-height:1.04; }
+
+    /* les surtitres portent l'identité : Inter, capitales, très espacées */
+    .intro-eyebrow, .header .eyebrow, .letter .kicker, .amb-sub,
+    .map-head h2, .count-cell span, .d-side{
+      font-family:"Inter", system-ui, sans-serif;
+      font-weight:500;
+    }
+    .intro-eyebrow, .header .eyebrow{ color:var(--green); letter-spacing:.42em; }
+
+    /* le dégradé « or filé » n'a plus lieu d'être : les prénoms passent en
+       aplat d'encre, plus franc et plus moderne que l'effet brillant */
+    .gold-text, .letter .names{
+      background:none;
+      -webkit-background-clip:border-box; background-clip:border-box;
+      -webkit-text-fill-color:var(--ink);
+      color:var(--ink);
+      filter:none;
+    }
+    /* Attention : ne pas couper l'animation depuis .gold-text. .intro-names
+       part de opacity:0 et n'apparaît QUE par son animation — un
+       « animation:none » global rendrait les prénoms invisibles à l'accueil.
+       On retire donc le seul scintillement, en gardant l'apparition. */
+    .intro-names{ animation:fadeGlow 1.5s 2.35s ease forwards; }
+    .header h1{ animation:none; }
+    .letter .names{ animation:none; }
+    .header h1 .ltr{
+      -webkit-text-fill-color:var(--ink);
+      color:var(--ink);
+      text-shadow:none;
+    }
+    .header .date-line{ color:var(--ink-soft); font-family:"Inter", system-ui, sans-serif; letter-spacing:.26em; }
+    .date-line::before, .date-line::after{
+      background:linear-gradient(90deg, transparent, var(--ink-faint));
+    }
+
+    /* ---------------------------------------------------------------------
+       FOND VIDÉO — de scène cinéma à filigrane
+       --------------------------------------------------------------------- */
+    .world{ background:var(--paper-warm); }
+    .bgv{ filter:saturate(0) contrast(.82) brightness(1.5); }
+    body.started .bgv{ filter:saturate(.12) contrast(.84) brightness(1.52); }
+    .bgv-still{ opacity:1; }
+
+    /* voile blanc : la vidéo devient une texture derrière le texte, sinon
+       aucune typographie foncée n'est lisible par-dessus */
+    .scrim{
+      background:linear-gradient(180deg,
+        rgba(251,251,250,.95) 0%,
+        rgba(251,251,250,.87) 22%,
+        rgba(253,253,252,.83) 48%,
+        rgba(251,251,250,.90) 74%,
+        rgba(247,247,245,.97) 100%);
+    }
+    .vignette{
+      background:radial-gradient(ellipse 96% 80% at 50% 46%, transparent 40%, rgba(238,239,236,.9) 96%);
+    }
+    .grade.green{
+      background:linear-gradient(180deg, rgba(26,107,70,.05) 0%, transparent 46%, rgba(26,107,70,.04) 100%);
+      mix-blend-mode:multiply;
+    }
+    .grade.gold{ display:none; }   /* la lumière ambrée n'a plus de rôle */
+    .leak{ display:none; }         /* un « screen » sur du blanc ne produit rien */
+    .grain{ opacity:.03; mix-blend-mode:multiply; }
+
+    /* ---------- particules : le blanc sur blanc disparaît ---------- */
+    .firefly{
+      background:radial-gradient(circle at 35% 35%, var(--green-lt), rgba(26,107,70,.4) 55%, transparent 74%);
+      box-shadow:0 0 10px rgba(26,107,70,.25);
+    }
+    .sparkle{
+      background:radial-gradient(circle at 35% 35%, var(--green-lt), var(--green) 55%, transparent 76%);
+      box-shadow:0 0 8px rgba(26,107,70,.3);
+    }
+    .petal{ background:linear-gradient(135deg,#ffffff,#eef1ee 55%,#d9dedb); opacity:.95; }
+    .leaf{ background:linear-gradient(135deg,#2f8f60,#12452e); opacity:.75; }
+    .flash{
+      background:radial-gradient(circle at 50% 52%, rgba(255,255,255,.92), rgba(26,107,70,.16) 40%, transparent 74%);
+    }
+    .glow-burst{
+      background:radial-gradient(circle, rgba(255,255,255,.95), rgba(26,107,70,.22) 40%, transparent 70%);
+    }
+
+    /* ---------------------------------------------------------------------
+       ÉCRAN D'ENTRÉE
+       --------------------------------------------------------------------- */
+    .intro{
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 52%, rgba(255,255,255,.75), transparent 72%),
+        linear-gradient(180deg, rgba(251,251,250,.95) 0%, rgba(253,253,252,.88) 42%, rgba(245,246,244,.97) 100%);
+    }
+    .intro-date{ color:var(--ink-soft); font-family:"Inter", system-ui, sans-serif; }
+    .intro-hint{ color:var(--ink-faint); }
+    .intro-bless{ color:var(--green-deep); text-shadow:none; }
+
+    /* bouton principal : aplat vert, texte blanc. Un seul point de couleur
+       forte sur la page — c'est lui qui dit où cliquer. */
+    .intro-btn{
+      border:1px solid transparent;
+      background:var(--green);
+      color:#ffffff;
+      font-weight:500;
+      box-shadow:0 2px 6px rgba(14,18,17,.06), 0 12px 26px rgba(26,107,70,.22);
+    }
+    .intro-btn:hover{ background:var(--green-deep); color:#ffffff; }
+    .intro-btn:focus-visible{ outline:2px solid var(--green); outline-offset:3px; }
+    @keyframes btnGlow{
+      0%,100%{ box-shadow:0 2px 6px rgba(14,18,17,.06), 0 0 0 0 rgba(26,107,70,.28); }
+      50%{ box-shadow:0 2px 6px rgba(14,18,17,.06), 0 0 0 12px rgba(26,107,70,0); }
+    }
+    .ring.r1{ stroke:var(--green); filter:none; }
+    .ring.r2{ stroke:rgba(26,107,70,.35); }
+    .mono-media{
+      box-shadow:0 0 0 1px rgba(26,107,70,.28), 0 0 0 7px rgba(26,107,70,.05), 0 18px 40px rgba(14,18,17,.13);
+    }
+    .mono-media video{ filter:saturate(.25) contrast(.95) brightness(1.2); }
+    .mono-media::after{
+      background:
+        radial-gradient(circle at 50% 26%, rgba(255,255,255,.32), transparent 68%),
+        linear-gradient(180deg, rgba(255,255,255,.16), rgba(26,107,70,.14));
+      box-shadow:inset 0 0 22px rgba(14,18,17,.10);
+      border-radius:50%;
+    }
+
+    /* ---------------------------------------------------------------------
+       COMPTE À REBOURS
+       --------------------------------------------------------------------- */
+    .count-cell{
+      border:1px solid var(--hair);
+      border-radius:4px;
+      background:rgba(255,255,255,.82);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.9), var(--shade-1);
+    }
+    .count-cell::after{ background:linear-gradient(90deg, transparent, var(--green), transparent); opacity:.4; }
+    .count-cell b{
+      font-family:"Inter", system-ui, sans-serif;
+      font-weight:500;
+      color:var(--ink);
+      text-shadow:none;
+      letter-spacing:-.02em;
+    }
+    .count-cell span{ color:var(--ink-mute); }
+
+    /* ---------------------------------------------------------------------
+       ENVELOPPE — papier blanc, gravure verte
+       --------------------------------------------------------------------- */
+    .shadow{ background:rgba(14,18,17,.15); }
+    .envelope-wrap{ filter:drop-shadow(0 30px 40px rgba(14,18,17,.12)); }
+    .envelope-base{
+      background:
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='90' height='90'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/></filter><rect width='90' height='90' filter='url(%23p)' opacity='.5'/></svg>"),
+        linear-gradient(158deg,#ffffff 0%,#fcfcfb 46%,#f2f3f1 100%);
+      background-size:90px 90px, cover;
+      background-blend-mode:multiply, normal;
+      border:1px solid rgba(26,107,70,.22);
+      box-shadow:inset 0 0 0 1px rgba(255,255,255,.7), inset 0 20px 50px rgba(14,18,17,.04);
+    }
+    .envelope-base::before{
+      background:
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26'><g fill='none' stroke='%231a6b46' stroke-width='.55' stroke-opacity='.24'><path d='M13 2 L24 13 L13 24 L2 13 Z'/><path d='M13 7 q4 6 0 12 q-4 -6 0 -12'/></g></svg>"),
+        linear-gradient(135deg, transparent 0 49.4%, rgba(26,107,70,.12) 49.4% 50.6%, transparent 50.6% 100%),
+        linear-gradient(225deg, transparent 0 49.4%, rgba(26,107,70,.09) 49.4% 50.6%, transparent 50.6% 100%),
+        radial-gradient(ellipse 70% 50% at 50% 0%, rgba(14,18,17,.04), transparent 70%);
+      background-size:26px 26px, cover, cover, cover;
+    }
+    .envelope-base::after{
+      background:linear-gradient(112deg, transparent 32%, rgba(255,255,255,.5) 46%, rgba(255,255,255,.85) 50%, rgba(255,255,255,.5) 54%, transparent 68%);
+    }
+    .flap-left{ background:linear-gradient(100deg,#ffffff 0%,#fbfbfa 62%,#f1f2f0 100%); }
+    .flap-right{ background:linear-gradient(260deg,#ffffff 0%,#fbfbfa 62%,#f1f2f0 100%); }
+    .flap-bottom{ background:linear-gradient(0deg,#fdfdfc 0%,#f7f8f6 58%,#eff0ee 100%); }
+    .flap-left, .flap-right, .flap-bottom{
+      background-size:cover;
+      filter:drop-shadow(0 0 .6px rgba(26,107,70,.45));
+    }
+    .flap-top{
+      background:linear-gradient(178deg,#ffffff 0%,#fcfcfb 62%,#f3f4f2 100%);
+      background-size:cover;
+      filter:drop-shadow(0 5px 8px rgba(14,18,17,.09)) drop-shadow(0 0 .7px rgba(26,107,70,.5));
+      box-shadow:inset 0 -14px 26px rgba(14,18,17,.03);
+    }
+    .flap-top::after{
+      background:
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26'><g fill='none' stroke='%231a6b46' stroke-width='.5' stroke-opacity='.55'><path d='M13 2 L24 13 L13 24 L2 13 Z'/><path d='M13 7 q4 6 0 12 q-4 -6 0 -12'/></g></svg>"),
+        linear-gradient(158deg, transparent 58%, rgba(26,107,70,.08));
+      background-size:26px 26px, cover;
+      opacity:.38;
+    }
+    .env-frame{ border:1px solid rgba(26,107,70,.20); }
+    .env-frame::before{ border:1px solid rgba(26,107,70,.10); }
+    .env-date{
+      color:var(--ink-mute);
+      font-family:"Inter", system-ui, sans-serif;
+      font-weight:500;
+    }
+    /* la mention gravée passe en capitales Inter : plus lisible, plus actuel */
+    .env-title{
+      font-family:"Inter", system-ui, sans-serif;
+      font-size:clamp(.62rem, 2.1vw, .74rem);
+      font-weight:500;
+      letter-spacing:.4em;
+      text-indent:.4em;
+      text-transform:uppercase;
+      line-height:1.6;
+      color:var(--green-deep);
+      text-shadow:none;
+    }
+    .env-title::after{ background:linear-gradient(90deg, transparent, var(--green), transparent); }
+
+    /* le sceau de cire vert est le seul aplat coloré de l'enveloppe :
+       il concentre le regard sur le point d'interaction */
+    .seal{
+      box-shadow:
+        0 0 0 1.6px rgba(26,107,70,.5),
+        0 0 0 6px rgba(26,107,70,.07),
+        0 10px 20px rgba(14,18,17,.22),
+        inset 0 0 0 6px rgba(3,19,11,.28),
+        inset 0 5px 11px rgba(214,255,232,.16),
+        inset 0 -10px 18px rgba(1,14,8,.75);
+    }
+    @keyframes sealPulse{
+      0%,100%{ box-shadow:0 0 0 1.6px rgba(26,107,70,.45), 0 0 0 7px rgba(26,107,70,.05), 0 10px 20px rgba(14,18,17,.22), inset 0 0 0 6px rgba(3,19,11,.28), inset 0 5px 11px rgba(214,255,232,.16), inset 0 -10px 18px rgba(1,14,8,.75); }
+      50%{ box-shadow:0 0 0 1.5px rgba(26,107,70,.6), 0 0 0 14px rgba(26,107,70,0), 0 10px 20px rgba(14,18,17,.22), inset 0 0 0 6px rgba(3,19,11,.28), inset 0 5px 11px rgba(214,255,232,.2), inset 0 -10px 18px rgba(1,14,8,.75); }
+    }
+
+    /* ---------------------------------------------------------------------
+       CARTE
+       --------------------------------------------------------------------- */
+    .letter{
+      background:
+        radial-gradient(ellipse 60% 45% at 18% 6%, rgba(255,255,255,.95), transparent 62%),
+        linear-gradient(168deg,#ffffff 0%,#fdfdfc 46%,#f7f8f6 100%);
+      border:1px solid rgba(26,107,70,.30);
+      border-radius:4px;
+      box-shadow:var(--shade-3);
+      color:var(--ink);
+    }
+    .open .letter{ box-shadow:var(--shade-3), 0 0 40px rgba(26,107,70,.07); }
+    @keyframes letterHalo{
+      0%,100%{ box-shadow:0 4px 10px rgba(14,18,17,.05), 0 30px 70px rgba(14,18,17,.10); }
+      50%{ box-shadow:0 4px 10px rgba(14,18,17,.05), 0 30px 70px rgba(14,18,17,.13); }
+    }
+    .letter::before{ border:1px solid rgba(26,107,70,.24); }
+    .letter::after{ border:1px dashed rgba(26,107,70,.14); }
+    .lace{
+      background-image:radial-gradient(circle at 6px 7px, transparent 2.6px, rgba(26,107,70,.34) 2.7px 3.4px, transparent 3.5px);
+      opacity:.6;
+    }
+    .letter .kicker{ color:var(--green); letter-spacing:.36em; }
+    .letter .kicker::before, .letter .kicker::after{
+      background:linear-gradient(90deg, transparent, rgba(26,107,70,.7));
+    }
+    .letter .invite-text{ color:var(--ink-soft); }
+    .letter .ar-bless{ color:var(--green-deep); }
+    .flourish path{ stroke:var(--green); stroke-width:1; }
+    .d-side{
+      color:var(--ink-soft);
+      border-top:1px solid rgba(26,107,70,.30);
+      border-bottom:1px solid rgba(26,107,70,.30);
+      letter-spacing:.24em;
+    }
+    .d-num{
+      font-family:"Instrument Serif", Georgia, serif;
+      font-weight:400;
+      color:var(--ink);
+      text-shadow:none;
+      letter-spacing:-.02em;
+    }
+    .d-year{ color:var(--ink-soft); font-family:"Inter", system-ui, sans-serif; }
+    .d-year .heart{ color:var(--green); }
+    .chip{
+      background:var(--green-wash);
+      border:1px solid rgba(26,107,70,.20);
+      color:var(--ink-soft);
+    }
+    .chip b{ color:var(--green-deep); font-weight:500; }
+    .letter .closing{
+      font-family:"Instrument Serif", Georgia, serif;
+      font-style:italic;
+      color:var(--green-deep);
+    }
+    .hint{ color:var(--ink-mute); }
+
+    /* ---------------------------------------------------------------------
+       POLAROÏDS
+       --------------------------------------------------------------------- */
+    .polaroid{
+      background:#ffffff;
+      box-shadow:var(--shade-2), inset 0 0 0 1px var(--hair);
+    }
+    .polaroid::after{ background:linear-gradient(128deg, rgba(255,255,255,.45) 0 22%, transparent 44%); }
+    .polaroid figcaption{
+      font-family:"Inter", system-ui, sans-serif;
+      font-size:.62rem;
+      font-weight:500;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--ink-mute);
+    }
+    .ph{ background:linear-gradient(165deg,#e9ede9,#dfe5e1 70%); }
+    /* les photos sont en portrait 4:5 et le polaroïd est carré : le cadrage
+       est recalé sur le sujet, pas sur le centre géométrique de l'image */
+    .polaroid.p1 .ph img{ object-position:50% 54%; }
+    .polaroid.p2 .ph img{ object-position:50% 46%; }
+    .polaroid.p3 .ph img{ object-position:50% 52%; }
+    .ph .ph-fallback{
+      background:
+        radial-gradient(ellipse 70% 50% at 50% 22%, rgba(26,107,70,.10), transparent 62%),
+        linear-gradient(168deg,#eef2ef,#e2e8e4 78%);
+    }
+    .bouquet .fl{ filter:drop-shadow(0 5px 10px rgba(14,18,17,.14)); }
+    .photo-tip-fr{
+      font-family:"Inter", system-ui, sans-serif;
+      font-style:normal;
+      font-size:clamp(.6rem, 1.9vw, .68rem);
+      font-weight:500;
+      letter-spacing:.28em;
+      text-transform:uppercase;
+      color:var(--ink-mute);
+      text-shadow:none;
+    }
+
+    /* ---------------------------------------------------------------------
+       BOUTONS
+       --------------------------------------------------------------------- */
+    .btn{
+      font-family:"Inter", system-ui, sans-serif;
+      font-weight:500;
+      letter-spacing:.14em;
+      color:#ffffff;
+      background:var(--green);
+      box-shadow:0 2px 6px rgba(14,18,17,.06), 0 14px 28px rgba(26,107,70,.20);
+    }
+    .btn:hover{
+      background:var(--green-deep);
+      box-shadow:0 4px 10px rgba(14,18,17,.07), 0 18px 36px rgba(26,107,70,.26);
+    }
+    .btn:focus-visible{ outline:2px solid var(--green); outline-offset:3px; }
+    .btn.secondary{
+      color:var(--ink);
+      background:#ffffff;
+      border:1px solid var(--hair);
+      box-shadow:var(--shade-1);
+    }
+    .btn.secondary:hover{ background:var(--green-wash); color:var(--green-deep); }
+
+    /* ---------------------------------------------------------------------
+       PANNEAUX : localisation, verset, musique
+       --------------------------------------------------------------------- */
+    .map-card, .verse{
+      border:1px solid var(--hair);
+      border-radius:4px;
+      background:rgba(255,255,255,.90);
+      box-shadow:var(--shade-2);
+    }
+    .map-head h2{ color:var(--ink); letter-spacing:.22em; }
+    .map-head .live-dot{ background:var(--green); box-shadow:0 0 10px rgba(26,107,70,.5); }
+    .map-head .place{ color:var(--ink-mute); }
+    .venue-shots figure{ border:1px solid var(--hair); background:var(--paper-edge); }
+    /* les photos étaient assombries pour s'accorder au fond noir : sur blanc
+       elles doivent au contraire respirer */
+    .venue-shots img, .amb-card img{ filter:saturate(1) contrast(1.02) brightness(1.02); }
+    .venue-shots figure::after{ background:linear-gradient(180deg, transparent, rgba(14,18,17,.08)); }
+    .venue-caption, .verse-src{
+      color:var(--ink-mute);
+      font-family:"Inter", system-ui, sans-serif;
+      letter-spacing:.14em;
+    }
+    .route-path{ stroke:var(--green); filter:none; }
+
+    /* la référence du verset est en français : la section repasse en LTR,
+       seul le verset garde le sens d'écriture arabe (classe .ar) */
+    .verse{ direction:ltr; }
+    .verse-txt{ color:var(--green-deep); text-shadow:none; }
+    .verse::before, .verse::after{
+      background:linear-gradient(90deg, transparent, var(--hair), transparent);
+    }
+    .music-pill{
+      border:1px solid var(--hair);
+      background:rgba(255,255,255,.92);
+      color:var(--ink-soft);
+      box-shadow:var(--shade-1);
+    }
+    .music-dot{ background:var(--green); box-shadow:0 0 10px rgba(26,107,70,.5); }
+    .eq i{ background:var(--green); }
+
+    /* ---------------------------------------------------------------------
+       GALERIE D'AMBIANCE
+       --------------------------------------------------------------------- */
+    /* ce titre était en arabe : il devient un titre français, il reprend
+       donc la police d'affichage au lieu de la police arabe */
+    .amb-title{
+      font-family:"Instrument Serif", Georgia, serif;
+      font-size:clamp(1.4rem, 4.4vw, 1.9rem);
+      font-weight:400;
+      line-height:1.2;
+      letter-spacing:-.01em;
+      color:var(--ink);
+      text-shadow:none;
+    }
+    .amb-sub{ color:var(--ink-mute); text-shadow:none; letter-spacing:.3em; }
+    .amb-sub::before, .amb-sub::after{
+      background:linear-gradient(90deg, transparent, var(--ink-faint));
+    }
+    .amb-card{
+      border:1px solid var(--hair);
+      border-radius:4px;
+      background:var(--paper-edge);
+      box-shadow:var(--shade-2);
+    }
+    .amb-card::before{ border:1px solid rgba(255,255,255,.5); }
+    .amb-card::after{
+      background:linear-gradient(180deg, transparent 0%, transparent 45%, rgba(14,18,17,.12) 100%);
+    }
+    .amb-card:hover{ box-shadow:var(--shade-3); }
+
+    /* =====================================================================
+       ENVELOPPE — PAPIER BLANC / GRIS, RENDU RÉALISTE
+       ---------------------------------------------------------------------
+       Objectif : que ça se lise comme une vraie enveloppe posée là, pas
+       comme un rectangle décoré.
+
+       RENVERSEMENT PAR RAPPORT À LA VERSION PRÉCÉDENTE
+       On avait un dégradé unique traversant les quatre panneaux. C'est
+       précisément ce qui interdit de voir un pliage : dans la réalité, deux
+       faces pliées ne peuvent pas partager la même valeur, sinon l'œil les
+       lit comme une seule surface plane. Chaque panneau reçoit donc ici sa
+       PROPRE valeur, cohérente avec une lumière venant du haut-gauche.
+
+       Les quatre indices qui font « vrai papier » :
+       1. HIÉRARCHIE DES PLIS — le rabat du bas recouvre les rabats
+          latéraux, qui recouvrent le corps. Plus un panneau est au-dessus,
+          plus il est clair (il est plus près de la lumière).
+       2. OMBRES DE COUTURE — chaque arête découpée projette une ombre fine
+          et DIRECTIONNELLE sur ce qui est dessous. C'est ce détail, plus
+          que la couleur, qui donne l'épaisseur.
+       3. ARÊTE ÉCLAIRÉE — un filet blanc de 1px sur le bord supérieur de
+          chaque panneau : la tranche du papier qui accroche la lumière.
+       4. GRAIN — une fibre légère sur tous les panneaux. Un aplat
+          parfaitement lisse ne ressemble jamais à du papier.
+       ===================================================================== */
+    :root{
+      /* gris papier, très légèrement chauds (R et V au-dessus du B) :
+         un gris parfaitement neutre tire vers le bleu et fait « écran » */
+      --pap-0:#ffffff;
+      --pap-1:#fbfbf9;
+      --pap-2:#f5f5f2;
+      --pap-3:#ededea;
+      --pap-4:#e4e4e0;
+      --pap-5:#d9d9d4;
+      --pap-6:#cdcdc8;
+      --grain:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='90' height='90'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/></filter><rect width='90' height='90' filter='url(%23p)' opacity='.5'/></svg>");
+    }
+
+    .envelope-wrap{ filter:drop-shadow(0 26px 38px rgba(28,30,28,.20)); }
+    .shadow{ background:rgba(28,30,28,.24); }
+
+    /* ---------- corps : le fond, donc le panneau le plus sombre ---------- */
+    .envelope-base{
+      border-radius:5px;
+      background:
+        var(--grain),
+        linear-gradient(158deg, var(--pap-4) 0%, var(--pap-5) 58%, var(--pap-6) 100%);
+      background-size:90px 90px, cover;
+      background-blend-mode:multiply, normal;
+      border:1px solid rgba(28,30,28,.10);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.7);
+    }
+    /* l'intérieur de l'enveloppe reste dans l'ombre du rabat */
+    .envelope-base::before{
+      background:linear-gradient(180deg, rgba(28,30,28,.16) 0%, rgba(28,30,28,.04) 26%, transparent 46%);
+      background-size:cover;
+    }
+    /* reflet satiné qui balaye : très discret sur du papier mat */
+    .envelope-base::after{
+      background:linear-gradient(112deg, transparent 36%, rgba(255,255,255,.30) 48%, rgba(255,255,255,.55) 50%, rgba(255,255,255,.30) 52%, transparent 64%);
+    }
+
+    /* ---------- rabats latéraux ----------
+       La lumière vient du haut-gauche : le rabat gauche la reçoit de face,
+       le droit est en léger contre-jour. Sans cet écart, les deux triangles
+       fusionnent en une seule surface. */
+    .flap-left{
+      background:
+        var(--grain),
+        linear-gradient(104deg, var(--pap-0) 0%, var(--pap-1) 46%, var(--pap-3) 100%);
+      background-size:90px 90px, cover;
+      background-blend-mode:multiply, normal;
+      /* l'arête oblique projette vers la droite, du côté opposé à la lumière */
+      filter:drop-shadow(1.5px 0 1.5px rgba(28,30,28,.10));
+    }
+    .flap-right{
+      background:
+        var(--grain),
+        linear-gradient(256deg, var(--pap-2) 0%, var(--pap-3) 52%, var(--pap-4) 100%);
+      background-size:90px 90px, cover;
+      background-blend-mode:multiply, normal;
+      filter:drop-shadow(-1.5px 0 1.5px rgba(28,30,28,.12));
+    }
+
+    /* ---------- rabat du bas ----------
+       Il recouvre les deux latéraux : c'est donc le plus clair des trois,
+       et c'est LUI qui porte l'ombre sur eux, pas l'inverse. */
+    .flap-bottom{
+      background:
+        var(--grain),
+        linear-gradient(2deg, var(--pap-2) 0%, var(--pap-1) 54%, var(--pap-0) 100%);
+      background-size:90px 90px, cover;
+      background-blend-mode:multiply, normal;
+      filter:drop-shadow(0 -2px 2.5px rgba(28,30,28,.13));
+    }
+
+    /* ---------- rabat supérieur ----------
+       Panneau de devant : le plus clair, et il projette l'ombre la plus
+       marquée puisqu'il est le plus décollé du corps. */
+    .flap-top{
+      background:
+        var(--grain),
+        linear-gradient(176deg, var(--pap-0) 0%, var(--pap-1) 52%, var(--pap-3) 100%);
+      background-size:90px 90px, cover;
+      background-blend-mode:multiply, normal;
+      filter:drop-shadow(0 4px 5px rgba(28,30,28,.16));
+      box-shadow:none;
+    }
+    /* le pli du rabat : une arête claire en haut, un assombrissement vers
+       la pointe, là où le papier se rapproche du corps */
+    .flap-top::after{
+      background:
+        linear-gradient(180deg, rgba(255,255,255,.85) 0 1px, transparent 1px),
+        linear-gradient(180deg, transparent 52%, rgba(28,30,28,.07) 100%);
+      background-size:cover, cover;
+      opacity:1;
+      -webkit-mask-image:none; mask-image:none;
+    }
+
+    /* une vraie enveloppe n'a pas de cadre imprimé */
+    .env-frame{ display:none; }
+
+    /* Le monogramme « A & N » gravé sur le rabat est retiré : le rabat
+       reste du papier nu, et les cygnes du médaillon sont le seul motif
+       de l'enveloppe. */
+
+    /* ---------- mention + date ---------- */
+    .env-title{
+      position:absolute; left:0; right:0; top:auto; bottom:15%;
+      z-index:7;
+      text-align:center;
+      font-family:"Inter", system-ui, sans-serif;
+      font-size:clamp(.54rem, 1.85vw, .62rem);
+      font-weight:500;
+      letter-spacing:.42em;
+      text-indent:.42em;
+      text-transform:uppercase;
+      color:rgba(28,30,28,.58);
+      text-shadow:0 1px 0 rgba(255,255,255,.8);
+      pointer-events:none;
+      -webkit-user-select:none; user-select:none;
+    }
+    .env-title::after{
+      content:"";
+      display:block;
+      width:24px; height:1px;
+      margin:9px auto 0;
+      background:rgba(28,30,28,.20);
+    }
+    .env-date{
+      bottom:7%;
+      color:rgba(28,30,28,.38);
+      font-family:"Inter", system-ui, sans-serif;
+      font-size:clamp(.5rem, 1.7vw, .58rem);
+      letter-spacing:.36em;
+      text-indent:.36em;
+    }
+
+    /* ---------- sceau : cire noire ----------
+       Seul élément foncé de l'enveloppe. Sur du papier clair, c'est le
+       point de contraste maximal : l'œil y va sans qu'on ait à l'indiquer. */
+    /* ---------- sceau : MÉDAILLON, les cygnes se voient ----------
+       La cire noire noyait la vidéo : brightness(.42) sous un voile opaque,
+       plus le monogramme posé par-dessus. Le sceau devient donc une fenêtre
+       ronde sur la vidéo, sertie dans le papier. Le monogramme n'est pas
+       perdu : il est déjà gravé sur le rabat, juste au-dessus.
+       C'est aussi la seule touche de couleur de l'enveloppe — elle tombe
+       exactement là où il faut cliquer. */
+    .seal{
+      /* seul motif de l'enveloppe depuis le retrait du monogramme :
+         il peut donc occuper plus de place */
+      width:120px; height:120px;
+      border-radius:50%;
+      background:#f2f2ef;
+      /* sertissage : cerne fin, puis collerette de papier blanc */
+      box-shadow:
+        0 0 0 1px rgba(28,30,28,.22),
+        0 0 0 5px rgba(255,255,255,.96),
+        0 0 0 6px rgba(28,30,28,.10),
+        0 13px 26px rgba(28,30,28,.30);
+      overflow:hidden;
+    }
+    .seal::before{ display:none; }
+    .seal::after{ display:none; }
+    @keyframes sealPulse{
+      0%,100%{ box-shadow:0 0 0 1px rgba(28,30,28,.22), 0 0 0 5px rgba(255,255,255,.96), 0 0 0 6px rgba(28,30,28,.10), 0 0 0 6px rgba(255,255,255,.55), 0 13px 26px rgba(28,30,28,.30); }
+      50%{ box-shadow:0 0 0 1px rgba(28,30,28,.22), 0 0 0 5px rgba(255,255,255,.96), 0 0 0 6px rgba(28,30,28,.10), 0 0 0 20px rgba(255,255,255,0), 0 13px 26px rgba(28,30,28,.30); }
+    }
+    .seal .medallion{ inset:0; border-radius:50%; overflow:hidden; }
+    /* à peine désaturée : les cygnes restent lisibles, sans jurer avec le
+       papier gris. Aucun assombrissement. */
+    .seal .medallion video{ filter:saturate(.86) contrast(1.05) brightness(1.06); }
+    /* reflet de verre volontairement discret : à 34 % il effaçait le haut
+       de l'image, or c'est là que sont les cygnes */
+    .seal .medallion::after{
+      background:
+        radial-gradient(ellipse 44% 28% at 30% 16%, rgba(255,255,255,.18), transparent 60%),
+        radial-gradient(circle at 50% 50%, transparent 62%, rgba(28,30,28,.16) 100%);
+      border-radius:50%;
+    }
+    .seal .medallion::before{ content:none; }
+
+    /* À l'ouverture, la carte remonte par-dessus le bas de l'enveloppe. Or
+       le lettrage extérieur est en z-index 7, la carte en 5 : sans ceci, il
+       resterait affiché par-dessus la carte. */
+    .env-title, .env-date{ transition:opacity .5s ease; }
+    .open .env-title, .open .env-date{ opacity:0; }
+
+    @media (max-width:560px){
+      .seal{ width:104px; height:104px; }
+      .env-title{ letter-spacing:.34em; text-indent:.34em; }
+    }
   </style>
 </head>
 <body>
@@ -1742,11 +2450,9 @@
             <p class="ar-bless ar" lang="ar" dir="rtl" id="arCardBless">الحمدُ للهِ الذي بنعمتِه تتمُّ الصالحات</p>
             <p class="kicker">Invitation au mariage</p>
             <p class="names" id="coupleNames">Amir &amp; Nesrine</p>
-            <p class="ar-names ar" lang="ar" dir="rtl" id="arNames">أمير و نسرين</p>
             <svg class="flourish" viewBox="0 0 160 14" aria-hidden="true">
               <path d="M4 8 C 30 2, 55 13, 80 7 S 132 2, 156 8"/>
             </svg>
-            <p class="ar-invite ar" lang="ar" dir="rtl" id="arInvite">يسعدنا ويشرفنا دعوتُكم لمشاركتنا فرحةَ زفافنا</p>
             <p class="invite-text" id="subtitle">ont la joie de vous convier à la célébration de leur union</p>
             <div class="date-block">
               <span class="d-side" id="dayName">Samedi</span>
@@ -1758,7 +2464,6 @@
               <span class="chip"> <b id="weddingPlace">Salle des fêtes, Béjaïa</b></span>
               <span class="chip">🅿 <b id="infoChip">Parking sur place</b></span>
             </div>
-            <p class="ar-closing ar" lang="ar" dir="rtl" id="arClosing">فرحتُنا لا تكتملُ إلّا بحضوركم</p>
             <p class="closing">Votre présence est notre plus beau cadeau</p>
           </div>
         </div>
@@ -1768,14 +2473,17 @@
         <div class="flap-right"></div>
         <div class="flap-bottom"></div>
         <div class="env-frame" aria-hidden="true"></div>
+        <!-- La mention et la date descendent en bas de l'enveloppe : le rabat
+             ne porte plus que le monogramme, il respire. -->
+        <div class="env-title" id="arEnvTitle">Invitation au mariage</div>
         <div class="env-date" id="envDate" aria-hidden="true">19 · 09 · 2026</div>
         <div class="glow-burst"></div>
-        <div class="flap-top">
-          <div class="env-title ar" lang="ar" dir="rtl" id="arEnvTitle">Invitation au mariage</div>
-        </div>
+        <div class="flap-top"></div>
         <div class="seal">
           <div class="medallion" aria-hidden="true">
-            <video class="medallion-video" muted loop playsinline preload="auto">
+            <!-- poster : sans lui le médaillon reste vide le temps du
+                 chargement de la vidéo -->
+            <video class="medallion-video" muted loop playsinline preload="auto" poster="poster.jpg">
               <source src="medaillon.mp4" type="video/mp4">
             </video>
           </div>
@@ -1795,17 +2503,22 @@
         <span class="fl f3"><svg viewBox="0 0 100 170"><use href="#calla"/></svg></span>
       </div>
 
+      <!-- Les polaroïds pointaient vers photo1/2/3.jpg, qui n'existent pas
+           dans le dossier : le repli illustré s'affichait donc à la place.
+           Ils utilisent maintenant de vraies photos.
+           POUR METTRE VOS PROPRES PHOTOS : déposez vos fichiers ici et
+           remplacez simplement les trois « data-src » ci-dessous. -->
       <figure class="polaroid p1">
-        <div class="ph"><img data-src="photo1.jpg" alt="Amir &amp; Nesrine" /></div>
-        <figcaption>Nous deux</figcaption>
+        <div class="ph"><img data-src="ambiance5.jpg" alt="Alliances, bouquet de callas et ombrelle" /></div>
+        <figcaption>Les préparatifs</figcaption>
       </figure>
       <figure class="polaroid p2">
-        <div class="ph"><img data-src="photo2.jpg" alt="Amir &amp; Nesrine" /></div>
-        <figcaption>Pour toujours</figcaption>
+        <div class="ph"><img data-src="ambiance1.jpg" alt="Les alliances posées près du bouquet" /></div>
+        <figcaption>Les alliances</figcaption>
       </figure>
       <figure class="polaroid p3">
-        <div class="ph"><img data-src="photo3.jpg" alt="Amir &amp; Nesrine" /></div>
-        <figcaption>19.09.2026</figcaption>
+        <div class="ph"><img data-src="ambiance4.jpg" alt="Table des mariés, lettres Mr &amp; Mrs et eucalyptus" /></div>
+        <figcaption>Mr &amp; Mrs</figcaption>
       </figure>
 
       <div class="bouquet right" data-depth="8">
@@ -1815,30 +2528,34 @@
       </div>
     </div>
     <p class="photo-tip" id="photoTip">
-      <span class="ar" lang="ar" dir="rtl" id="galleryCaptionAr">أجملُ ذكرياتنا</span>
       <span class="photo-tip-fr" id="galleryCaption">Nos plus beaux souvenirs</span>
     </p>
 
     <!-- AMBIANCE -->
     <section class="ambiance" id="ambiance" aria-label="Ambiance du mariage">
       <div class="amb-head">
-        <p class="amb-title ar" lang="ar" dir="rtl" id="ambTitleAr">أجواء حفلنا</p>
-        <p class="amb-sub" id="ambTitleFr">L'esprit de la soirée</p>
+        <p class="amb-title" id="ambTitleFr">L'esprit de la soirée</p>
+        <p class="amb-sub">Quelques images de la réception</p>
       </div>
       <div class="amb-strip" id="ambStrip">
+        <!-- Ordre revu : ambiance5, 4 et 1 servent désormais aux polaroïds
+             juste au-dessus. Elles passent en fin de bande pour qu'on ne
+             voie pas deux fois la même image sans avoir à faire défiler. -->
         <figure class="amb-card"><img data-src="ambiance2.jpg" alt="Table d'honneur fleurie"></figure>
-        <figure class="amb-card"><img data-src="ambiance5.jpg" alt="Callas blancs et alliances"></figure>
         <figure class="amb-card"><img data-src="ambiance3.jpg" alt="Réception sous les guirlandes lumineuses"></figure>
+        <figure class="amb-card"><img data-src="ambiance6.jpg" alt="Art de la table doré aux chandelles"></figure>
+        <figure class="amb-card"><img data-src="ambiance5.jpg" alt="Callas blancs et alliances"></figure>
         <figure class="amb-card"><img data-src="ambiance4.jpg" alt="Décor de la table des mariés"></figure>
         <figure class="amb-card"><img data-src="ambiance1.jpg" alt="Alliances et bouquet"></figure>
-        <figure class="amb-card"><img data-src="ambiance6.jpg" alt="Art de la table doré aux chandelles"></figure>
       </div>
     </section>
 
     <!-- VERSET -->
-    <section class="verse ar" lang="ar" dir="rtl" aria-label="Verset">
-      <p class="verse-txt" id="arVerse">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
-      <p class="verse-src" id="arVerseSrc">سورة الروم — الآية ٢١</p>
+    <!-- Le verset reste en arabe ; sa référence passe en français, elle est
+         donc sortie du contexte RTL de la section. -->
+    <section class="verse" aria-label="Verset du Coran">
+      <p class="verse-txt ar" lang="ar" dir="rtl" id="arVerse">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</p>
+      <p class="verse-src" id="arVerseSrc">Coran — sourate Ar-Rûm, verset 21</p>
     </section>
 
     <!-- LOCALISATION -->
@@ -1951,18 +2668,14 @@
       // Date et heure exactes du compte à rebours (année, mois-1, jour, heure, minute)
       target: new Date(2026, 8, 19, 19, 0, 0),
       // Légendes des polaroïds
-      captions: ["Nous deux", "Pour toujours", "19.09.2026"],
+      captions: ["Les préparatifs", "Les alliances", "Mr & Mrs"],
 
-      // ---- Textes arabes (modifiables librement) ----
+      // ---- Les deux seuls textes arabes de la page ----
       ar: {
         bless:    "الحمدُ للهِ الذي بنعمتِه تتمُّ الصالحات",
-        names:    "أمير و نسرين",
-        invite:   "يسعدنا ويشرفنا دعوتُكم لمشاركتنا فرحةَ زفافنا",
-        closing:  "فرحتُنا لا تكتملُ إلّا بحضوركم",
         envelope: "Invitation au mariage",
-        ambiance: "أجواء حفلنا",
         verse:    "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً",
-        verseSrc: "سورة الروم — الآية ٢١"
+        verseSrc: "Coran — sourate Ar-Rûm, verset 21"
       }
     };
 
@@ -1988,11 +2701,7 @@
     const ar = invitationData.ar;
     setText("arBless", ar.bless);
     setText("arCardBless", ar.bless);
-    setText("arNames", ar.names);
-    setText("arInvite", ar.invite);
-    setText("arClosing", ar.closing);
     setText("arEnvTitle", ar.envelope);
-    setText("ambTitleAr", ar.ambiance);
     setText("ambTitleFr", invitationData.ambianceTitle);
     setText("arVerse", ar.verse);
     setText("arVerseSrc", ar.verseSrc);
@@ -2046,7 +2755,7 @@
         img.remove();
         fallbackPhoto(holder);
         missingPhotos++;
-        console.info("Astuce : déposez photo1.jpg, photo2.jpg et photo3.jpg dans ce dossier pour afficher vos polaroïds.");
+        console.info("Polaroïd : image introuvable. Vérifiez le nom de fichier indiqué dans data-src.");
       });
       img.src = img.dataset.src;
     });
@@ -2543,7 +3252,9 @@
     resizeCanvas();
     window.addEventListener("resize", resizeCanvas);
 
-    const FX_COLORS = ["#f0dca0", "#c9a24a", "#ffffff", "#e9f0ec", "#8fb8a3"];
+    /* palette des confettis : calée sur le thème clair. Le blanc et le vert
+       très pâle d'origine étaient invisibles sur un fond blanc. */
+    const FX_COLORS = ["#c9a24a", "#a07b2c", "#dcbf74", "#2f7a54", "#79a68e"];
 
     function fireworksAt(x, y){
       if (reducedMotion) return;
